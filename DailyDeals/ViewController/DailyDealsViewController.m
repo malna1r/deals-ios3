@@ -23,6 +23,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.butText=[[NSMutableArray alloc]init];
+        self.imgNames = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -33,6 +34,13 @@
 
     
     self.butText = [NSMutableArray arrayWithObjects: @"Beauty",@"Clothes", @"Entertainment",@"Food", @"Travel", nil];
+    self.imgNames = [NSMutableArray arrayWithObjects:
+                      @"beauty.png",
+                      @"clothes.png",
+                      @"entertainment.png",
+                      @"food.png",
+                      @"travel.png",
+                      nil];
 
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
   
@@ -69,6 +77,7 @@
         }
     
        cell.lblDealsTitle.text=[self.butText objectAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:[self.imgNames objectAtIndex:indexPath.row]];
 
     return cell;
 

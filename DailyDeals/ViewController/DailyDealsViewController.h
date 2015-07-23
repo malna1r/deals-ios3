@@ -22,6 +22,7 @@
 @property (nonatomic, strong) AppDelegate *appDelegate;
 @property (nonatomic, strong) AppMenuView *appMenu;
 @property(nonatomic,strong) NSMutableArray *butText;
+@property(nonatomic,strong) NSArray *imgNames;
 -(IBAction)btnProfileClk:(id)sender;
 -(IBAction)btnSlideManuClk:(id)sender;
 -(IBAction)btnSearchClk:(id)sender;
