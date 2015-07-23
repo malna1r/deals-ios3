@@ -75,9 +75,10 @@
             cell= (DailyDealsCell *)controller.view;
             
         }
-    
-       cell.lblDealsTitle.text=[self.butText objectAtIndex:indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:[self.imgNames objectAtIndex:indexPath.row]];
+    cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[self.imgNames objectAtIndex:indexPath.row]]];
+    //[self.view addSubview:cell.backgroundView];
+    cell.lblDealsTitle.text=[self.butText objectAtIndex:indexPath.row];
+
 
     return cell;
 
