@@ -17,11 +17,12 @@
 
 @implementation DailyDealsViewController
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.butText=[[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -29,6 +30,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+
+    
+    self.butText = [NSMutableArray arrayWithObjects: @"Beauty",@"Clothes", @"Entertainment",@"Food", @"Travel", nil];
+
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
   
     //Add side bar on view
@@ -63,7 +68,8 @@
             
         }
     
-       cell.lblDealsTitle.text=@"Title";
+       cell.lblDealsTitle.text=[self.butText objectAtIndex:indexPath.row];
+
     return cell;
 
    

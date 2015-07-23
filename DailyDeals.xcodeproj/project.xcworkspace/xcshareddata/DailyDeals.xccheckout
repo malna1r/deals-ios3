@@ -12,20 +12,24 @@
 	<dict>
 		<key>66EF5FB31D57405D2F32803E3546B981798C01FE</key>
 		<string>https://github.com/malna1r/deals-ios2.git</string>
+		<key>78DC02222D113CAF5158BF9BA9077EF9C183C1B8</key>
+		<string>https://github.com/malna1r/deals-ios3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DailyDeals.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>66EF5FB31D57405D2F32803E3546B981798C01FE</key>
+		<string>../../../deals-ios2</string>
+		<key>78DC02222D113CAF5158BF9BA9077EF9C183C1B8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/malna1r/deals-ios2.git</string>
+	<string>https://github.com/malna1r/deals-ios3.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>66EF5FB31D57405D2F32803E3546B981798C01FE</string>
+	<string>78DC02222D113CAF5158BF9BA9077EF9C183C1B8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>66EF5FB31D57405D2F32803E3546B981798C01FE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>deals-ios2</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>78DC02222D113CAF5158BF9BA9077EF9C183C1B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>deals-ios3</string>
 		</dict>
 	</array>
 </dict>
