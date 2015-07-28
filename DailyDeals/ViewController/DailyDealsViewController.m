@@ -105,9 +105,9 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  [self performSegueWithIdentifier:@"DailyDealsToDetails" sender:self];
-  // self.controller = [self.storyboard instantiateViewControllerWithIdentifier:@"coupnViewController"];
-  // [self performSegueWithIdentifier:[self.sequeNames objectAtIndex:indexPath.row] sender:self];
+  //[self performSegueWithIdentifier:@"DailyDealsToDetails" sender:self];
+  //self.controller = [self.storyboard instantiateViewControllerWithIdentifier:@"coupnViewController"];
+  [self performSegueWithIdentifier:[self.sequeNames objectAtIndex:indexPath.row] sender:self];
 }
 -(IBAction)btnProfileClk:(id)sender
 {
