@@ -24,6 +24,8 @@
     if (self) {
         self.butText=[[NSMutableArray alloc]init];
         self.imgNames = [[NSMutableArray alloc]init];
+        self.sequeNames = [[NSMutableArray alloc]init];
+        self.viewNames = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -41,6 +43,21 @@
                       @"food.png",
                       @"travel.png",
                       nil];
+    self.sequeNames = [NSMutableArray arrayWithObjects:
+                       @"DailyDealsToBeauty",
+                       @"DailyDealsToClothes",
+                       @"DailyDealsToEntertainment",
+                       @"DailyDealsToFood",
+                       @"DailyDealsToTravel",
+                       nil];
+    self.viewNames = [NSMutableArray arrayWithObjects:
+                      @"BeautyViewController",
+                      @"ClothesViewController",
+                      @"EntertainmentViewController",
+                      @"FoodViewController",
+                      @"TravelViewController",
+                      nil];
+
 
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
   
@@ -55,6 +72,7 @@
    
     
 }
+
 #pragma mark UITableViewDelegate and UITableViewDatasource
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
@@ -88,6 +106,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
   [self performSegueWithIdentifier:@"DailyDealsToDetails" sender:self];
+  // self.controller = [self.storyboard instantiateViewControllerWithIdentifier:@"coupnViewController"];
+  // [self performSegueWithIdentifier:[self.sequeNames objectAtIndex:indexPath.row] sender:self];
 }
 -(IBAction)btnProfileClk:(id)sender
 {

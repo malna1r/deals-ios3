@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1354F4CF1B66E602000BF352 /* BeautyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1354F4CE1B66E602000BF352 /* BeautyViewController.m */; };
+		1354F4D21B66E6CA000BF352 /* ClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1354F4D11B66E6CA000BF352 /* ClothesViewController.m */; };
+		1354F4D51B66E744000BF352 /* EntertainmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1354F4D41B66E744000BF352 /* EntertainmentViewController.m */; };
+		1354F4D81B66E9C9000BF352 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1354F4D71B66E9C9000BF352 /* FoodViewController.m */; };
+		1354F4DB1B66E9F9000BF352 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1354F4DA1B66E9F9000BF352 /* TravelViewController.m */; };
 		13D2C2D01B6197EC00C32938 /* entertainment.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CC1B6197EC00C32938 /* entertainment.png */; };
 		13D2C2D11B6197EC00C32938 /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CD1B6197EC00C32938 /* clothes.png */; };
 		13D2C2D21B6197EC00C32938 /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CE1B6197EC00C32938 /* beauty.png */; };
@@ -124,6 +129,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1354F4CD1B66E602000BF352 /* BeautyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyViewController.h; sourceTree = "<group>"; };
+		1354F4CE1B66E602000BF352 /* BeautyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyViewController.m; sourceTree = "<group>"; };
+		1354F4D01B66E6CA000BF352 /* ClothesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesViewController.h; sourceTree = "<group>"; };
+		1354F4D11B66E6CA000BF352 /* ClothesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesViewController.m; sourceTree = "<group>"; };
+		1354F4D31B66E744000BF352 /* EntertainmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntertainmentViewController.h; sourceTree = "<group>"; };
+		1354F4D41B66E744000BF352 /* EntertainmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntertainmentViewController.m; sourceTree = "<group>"; };
+		1354F4D61B66E9C9000BF352 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		1354F4D71B66E9C9000BF352 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		1354F4D91B66E9F9000BF352 /* TravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelViewController.h; sourceTree = "<group>"; };
+		1354F4DA1B66E9F9000BF352 /* TravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelViewController.m; sourceTree = "<group>"; };
 		13D2C2CC1B6197EC00C32938 /* entertainment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entertainment.png; sourceTree = "<group>"; };
 		13D2C2CD1B6197EC00C32938 /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothes.png; sourceTree = "<group>"; };
 		13D2C2CE1B6197EC00C32938 /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
@@ -433,10 +448,20 @@
 		8EC035CA18F2DE4E00946BA8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1354F4D91B66E9F9000BF352 /* TravelViewController.h */,
+				1354F4DA1B66E9F9000BF352 /* TravelViewController.m */,
+				1354F4D61B66E9C9000BF352 /* FoodViewController.h */,
+				1354F4D71B66E9C9000BF352 /* FoodViewController.m */,
+				1354F4D31B66E744000BF352 /* EntertainmentViewController.h */,
+				1354F4D41B66E744000BF352 /* EntertainmentViewController.m */,
+				1354F4D01B66E6CA000BF352 /* ClothesViewController.h */,
+				1354F4D11B66E6CA000BF352 /* ClothesViewController.m */,
 				8EC035CB18F2DE8300946BA8 /* DailyDealsViewController.h */,
 				8EC035CC18F2DE8300946BA8 /* DailyDealsViewController.m */,
 				8EC0356D18F2872200946BA8 /* ViewController.h */,
 				8EC0356E18F2872200946BA8 /* ViewController.m */,
+				1354F4CD1B66E602000BF352 /* BeautyViewController.h */,
+				1354F4CE1B66E602000BF352 /* BeautyViewController.m */,
 				8E3B304C18F3CB1400DEC655 /* ProfileViewController.h */,
 				8E3B304D18F3CB1400DEC655 /* ProfileViewController.m */,
 				8E3B304F18F3CC6700DEC655 /* DealsDetailsViewController.h */,
@@ -692,11 +717,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1354F4D81B66E9C9000BF352 /* FoodViewController.m in Sources */,
+				1354F4CF1B66E602000BF352 /* BeautyViewController.m in Sources */,
 				8EC0356F18F2872200946BA8 /* ViewController.m in Sources */,
 				8EEF9F9618F3FF410022E7BB /* RegistrationViewController.m in Sources */,
+				1354F4D21B66E6CA000BF352 /* ClothesViewController.m in Sources */,
 				8EEF9F9918F400760022E7BB /* MyPurchaseViewController.m in Sources */,
 				8EC035CD18F2DE8300946BA8 /* DailyDealsViewController.m in Sources */,
 				8EEF9FA818F414840022E7BB /* CouponViewController.m in Sources */,
+				1354F4DB1B66E9F9000BF352 /* TravelViewController.m in Sources */,
+				1354F4D51B66E744000BF352 /* EntertainmentViewController.m in Sources */,
 				8EC0356918F2872200946BA8 /* AppDelegate.m in Sources */,
 				8E3B305118F3CC6800DEC655 /* DealsDetailsViewController.m in Sources */,
 				8EC0356518F2872200946BA8 /* main.m in Sources */,
