@@ -14,6 +14,7 @@
 		1354F4DD1B681C72000BF352 /* AdobeMobileLibrary in Resources */ = {isa = PBXBuildFile; fileRef = 1354F4DC1B681C72000BF352 /* AdobeMobileLibrary */; };
 		1354F4DF1B682054000BF352 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1354F4DE1B682054000BF352 /* libsqlite3.dylib */; };
 		1354F4E11B682061000BF352 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1354F4E01B682061000BF352 /* SystemConfiguration.framework */; };
+		13D0F9941B7131CD000AF0BB /* MboxCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D0F9931B7131CD000AF0BB /* MboxCaller.m */; };
 		13D2C2D01B6197EC00C32938 /* entertainment.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CC1B6197EC00C32938 /* entertainment.png */; };
 		13D2C2D11B6197EC00C32938 /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CD1B6197EC00C32938 /* clothes.png */; };
 		13D2C2D21B6197EC00C32938 /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CE1B6197EC00C32938 /* beauty.png */; };
@@ -148,6 +149,8 @@
 		1354F4DC1B681C72000BF352 /* AdobeMobileLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AdobeMobileLibrary; path = "DailyDeals iOS_iOS-4.5.4/AdobeMobileLibrary"; sourceTree = SOURCE_ROOT; };
 		1354F4DE1B682054000BF352 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1354F4E01B682061000BF352 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		13D0F9921B71317D000AF0BB /* MboxCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MboxCaller.h; sourceTree = "<group>"; };
+		13D0F9931B7131CD000AF0BB /* MboxCaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MboxCaller.m; sourceTree = "<group>"; };
 		13D2C2CC1B6197EC00C32938 /* entertainment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entertainment.png; sourceTree = "<group>"; };
 		13D2C2CD1B6197EC00C32938 /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothes.png; sourceTree = "<group>"; };
 		13D2C2CE1B6197EC00C32938 /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
@@ -574,6 +577,8 @@
 			children = (
 				8EEF9FD018F433360022E7BB /* Container.h */,
 				8EEF9FD118F433360022E7BB /* Container.m */,
+				13D0F9921B71317D000AF0BB /* MboxCaller.h */,
+				13D0F9931B7131CD000AF0BB /* MboxCaller.m */,
 			);
 			path = ObjectClass;
 			sourceTree = "<group>";
@@ -771,6 +776,7 @@
 				A0BB71CA1B6AECC0008A46C7 /* FoodDealsCell.m in Sources */,
 				8E3B305118F3CC6800DEC655 /* DealsDetailsViewController.m in Sources */,
 				8EC0356518F2872200946BA8 /* main.m in Sources */,
+				13D0F9941B7131CD000AF0BB /* MboxCaller.m in Sources */,
 				8E3B304E18F3CB1400DEC655 /* ProfileViewController.m in Sources */,
 				A0D00B021B6FDF09007F5F09 /* EntertainmentDealsCell.m in Sources */,
 				8EEF9FC818F42A790022E7BB /* AppMenuView.m in Sources */,
