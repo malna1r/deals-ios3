@@ -103,6 +103,7 @@
 
 -(void)welcomeMessageCampaign
 {
+
     [ADBMobile targetClearCookies];
     
     ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message" defaultContent:@"Find Great Deals Everyday!" parameters:nil];
