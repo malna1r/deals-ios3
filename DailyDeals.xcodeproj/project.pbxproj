@@ -271,6 +271,7 @@
 		8EEF9FD018F433360022E7BB /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
 		8EEF9FD118F433360022E7BB /* Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Container.m; sourceTree = "<group>"; };
 		90FB65971B714AE4009E8306 /* ADBMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADBMobile.h; path = ObjectClass/ADBMobile.h; sourceTree = "<group>"; };
+		90FB65981B7150FF009E8306 /* ADBMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
 		A07A035D1B6A95DA00189F51 /* FoodDealsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodDealsCell.h; sourceTree = "<group>"; };
 		A0BB71C31B6AB8E2008A46C7 /* BeautyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyViewController.h; sourceTree = "<group>"; };
 		A0BB71C41B6AB8EC008A46C7 /* BeautyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyViewController.m; sourceTree = "<group>"; };
@@ -360,7 +361,10 @@
 		8EC0355718F2872200946BA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				13EA0BA51B715938002F99DD /* libz.dylib */,
+=======
+>>>>>>> Stashed changes
 				1354F4DC1B681C72000BF352 /* AdobeMobileLibrary */,
 				1354F4E01B682061000BF352 /* SystemConfiguration.framework */,
 				1354F4DE1B682054000BF352 /* libsqlite3.dylib */,
@@ -490,6 +494,7 @@
 		8EC035CA18F2DE4E00946BA8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				90FB65981B7150FF009E8306 /* ADBMobile.h */,
 				A0BB71C41B6AB8EC008A46C7 /* BeautyViewController.m */,
 				A0BB71C31B6AB8E2008A46C7 /* BeautyViewController.h */,
 				1354F4D91B66E9F9000BF352 /* TravelViewController.h */,

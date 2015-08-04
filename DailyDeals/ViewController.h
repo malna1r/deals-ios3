@@ -9,6 +9,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADBMobile.h"
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 @property(nonatomic,strong)IBOutlet UIScrollView *scrollView;

@@ -2,7 +2,7 @@
   "lastModified": "2015-07-23T21:07:50.514Z",
   "target": {
     "clientCode": "mactargetqa1",
-    "timeout": 5
+    "timeout": 15
   },
   "audienceManager": {
     "server": ""
