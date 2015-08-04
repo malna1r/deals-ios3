@@ -5,7 +5,7 @@
 //  Created by MyAppTemplates Software on 07/04/14.
 //  Copyright (c) 2014 MyAppTemplates Software. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import "ViewController.h"
 #import "DailyDealsViewController.h"
 #import "ADBMobile.h"

@@ -19,6 +19,8 @@
 		13D2C2D21B6197EC00C32938 /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CE1B6197EC00C32938 /* beauty.png */; };
 		13D2C2D31B6197EC00C32938 /* travel.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2CF1B6197EC00C32938 /* travel.png */; };
 		13D2C2D51B61987700C32938 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D2C2D41B61987700C32938 /* food.png */; };
+		13EA0BA41B7154AD002F99DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC0355C18F2872200946BA8 /* UIKit.framework */; };
+		13EA0BA61B715938002F99DD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EA0BA51B715938002F99DD /* libz.dylib */; };
 		84E0E9AC1921180E001B388B /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0E9AB1921180E001B388B /* Logo.png */; };
 		8E3B303818F3C62100DEC655 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B302818F3C62100DEC655 /* Arrow.png */; };
 		8E3B303918F3C62100DEC655 /* Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B302918F3C62100DEC655 /* Arrow@2x.png */; };
@@ -42,7 +44,6 @@
 		8E3B305118F3CC6800DEC655 /* DealsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B305018F3CC6700DEC655 /* DealsDetailsViewController.m */; };
 		8EC0355918F2872200946BA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC0355818F2872200946BA8 /* Foundation.framework */; };
 		8EC0355B18F2872200946BA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC0355A18F2872200946BA8 /* CoreGraphics.framework */; };
-		8EC0355D18F2872200946BA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC0355C18F2872200946BA8 /* UIKit.framework */; };
 		8EC0356318F2872200946BA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0356118F2872200946BA8 /* InfoPlist.strings */; };
 		8EC0356518F2872200946BA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0356418F2872200946BA8 /* main.m */; };
 		8EC0356918F2872200946BA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0356818F2872200946BA8 /* AppDelegate.m */; };
@@ -153,6 +154,7 @@
 		13D2C2CE1B6197EC00C32938 /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
 		13D2C2CF1B6197EC00C32938 /* travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travel.png; sourceTree = "<group>"; };
 		13D2C2D41B61987700C32938 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		13EA0BA51B715938002F99DD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		84E0E9AB1921180E001B388B /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		8E3B302818F3C62100DEC655 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 		8E3B302918F3C62100DEC655 /* Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow@2x.png"; sourceTree = "<group>"; };
@@ -288,11 +290,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EA0BA61B715938002F99DD /* libz.dylib in Frameworks */,
+				13EA0BA41B7154AD002F99DD /* UIKit.framework in Frameworks */,
 				1354F4E11B682061000BF352 /* SystemConfiguration.framework in Frameworks */,
 				1354F4DF1B682054000BF352 /* libsqlite3.dylib in Frameworks */,
 				8EEF9FBF18F420740022E7BB /* QuartzCore.framework in Frameworks */,
 				8EC0355B18F2872200946BA8 /* CoreGraphics.framework in Frameworks */,
-				8EC0355D18F2872200946BA8 /* UIKit.framework in Frameworks */,
 				8EC0355918F2872200946BA8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +360,8 @@
 		8EC0355718F2872200946BA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13EA0BA51B715938002F99DD /* libz.dylib */,
+				1354F4DC1B681C72000BF352 /* AdobeMobileLibrary */,
 				1354F4E01B682061000BF352 /* SystemConfiguration.framework */,
 				1354F4DE1B682054000BF352 /* libsqlite3.dylib */,
 				8EEF9FBE18F420740022E7BB /* QuartzCore.framework */,
@@ -372,7 +377,6 @@
 			isa = PBXGroup;
 			children = (
 				90FB65971B714AE4009E8306 /* ADBMobile.h */,
-				1354F4DC1B681C72000BF352 /* AdobeMobileLibrary */,
 				8EEF9FCF18F433360022E7BB /* ObjectClass */,
 				8EC0356718F2872200946BA8 /* AppDelegate.h */,
 				8EC0356818F2872200946BA8 /* AppDelegate.m */,
