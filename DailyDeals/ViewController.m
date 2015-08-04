@@ -92,20 +92,6 @@
    
 }
 
--(void)welcomeMessageCampaign
-{
-    [ADBMobile targetClearCookies];
-        
-        ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message" defaultContent:@"Find Great Deals Everyday!" parameters:nil];
-        
-        [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content)
-             
-             { // do something with content
-                     self.welcomeMessage.text = content;
-                 }];
-    
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -114,4 +100,19 @@
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
+
+-(void)welcomeMessageCampaign
+{
+    [ADBMobile targetClearCookies];
+    
+    ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message" defaultContent:@"Find Great Deals Everyday!" parameters:nil];
+    
+    [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content)
+     
+     {
+         self.welcomeMessage.text = content;
+     }];
+    
+}
+
 @end
