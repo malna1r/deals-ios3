@@ -1,5 +1,5 @@
 //
-//  FoodViewController.h
+//  EntertainmentViewController.h
 //  DailyDeals
 //
 //  Created by Malvika Nair on 7/27/15.

@@ -9,6 +9,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MboxCaller.h"
+#import "ADBMobile.h"
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 @property(nonatomic,strong)IBOutlet UIScrollView *scrollView;
@@ -18,7 +20,7 @@
 @property(nonatomic,strong)IBOutlet UIButton *btnRegister;
 @property(nonatomic,strong)IBOutlet UITextField *txtFieldEmail;
 @property(nonatomic,strong)IBOutlet UITextField *txtFieldPassword;
-
+@property(nonatomic,strong)IBOutlet UILabel *targetLabel1;
 -(IBAction)btnLoginClk:(id)sender;
 -(IBAction)btnFacebookLoginClk:(id)sender;
 -(IBAction)btnTwitterClk:(id)sender;

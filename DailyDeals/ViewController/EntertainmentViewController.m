@@ -178,12 +178,12 @@
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"BeautyDealsToProfile"]) {
+    if ([segue.identifier isEqualToString:@"EntertainmentDealsToProfile"]) {
         
         //ProfileViewController *newSegue=segue.destinationViewController;
         //Pass any value to dailyDetails ViewController if require
     }
-    if ([segue.identifier isEqualToString:@"BeautyDealsToProfile"]) {
+    if ([segue.identifier isEqualToString:@"EntertainmentDealsToProfile"]) {
         
         //DealsDetailsViewController *newSegue=segue.destinationViewController;
         //Pass any value to dailyDetails ViewController if require
