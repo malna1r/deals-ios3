@@ -9,7 +9,10 @@
 //
 
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import "MboxCaller.h"
+=======
+>>>>>>> origin/master
 #import "ADBMobile.h"
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
@@ -20,7 +23,13 @@
 @property(nonatomic,strong)IBOutlet UIButton *btnRegister;
 @property(nonatomic,strong)IBOutlet UITextField *txtFieldEmail;
 @property(nonatomic,strong)IBOutlet UITextField *txtFieldPassword;
+<<<<<<< HEAD
 @property(nonatomic,strong)IBOutlet UILabel *targetLabel1;
+=======
+@property (nonatomic, strong) IBOutlet UILabel *welcomeMessage;
+
+-(void)welcomeMessageCampaign;
+>>>>>>> origin/master
 -(IBAction)btnLoginClk:(id)sender;
 -(IBAction)btnFacebookLoginClk:(id)sender;
 -(IBAction)btnTwitterClk:(id)sender;

@@ -5,11 +5,16 @@
 //  Created by MyAppTemplates Software on 07/04/14.
 //  Copyright (c) 2014 MyAppTemplates Software. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import "ViewController.h"
 #import "DailyDealsViewController.h"
+<<<<<<< HEAD
 #import "MboxCaller.h"
 #import "ADBMobile.h"
+=======
+#import "ADBMobile.h"
+
+>>>>>>> origin/master
 @interface ViewController ()
 
 @end
@@ -89,7 +94,7 @@
     pt.x = 0;
     pt.y = 0;
     [self.scrollView setContentOffset:pt animated:YES];
-    
+   
 }
 
 
@@ -102,4 +107,22 @@
     return YES;
 }
 
+<<<<<<< HEAD
+=======
+-(void)welcomeMessageCampaign
+{
+
+    [ADBMobile targetClearCookies];
+    
+    ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message" defaultContent:@"Find Great Deals Everyday!" parameters:nil];
+    
+    [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content)
+     
+     {
+         self.welcomeMessage.text = content;
+     }];
+    
+}
+
+>>>>>>> origin/master
 @end

@@ -111,8 +111,13 @@
                                             <action selector="btnLoginClk:" destination="srW-ut-dzo" eventType="touchUpInside" id="IdV-1o-8Bd"/>
                                         </connections>
                                     </button>
+<<<<<<< HEAD
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K2D-Or-vJ5">
                                         <rect key="frame" x="132" y="532" width="42" height="21"/>
+=======
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AI5-eV-w5k">
+                                        <rect key="frame" x="103" y="504" width="114" height="31"/>
+>>>>>>> origin/master
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -138,6 +143,7 @@
                         <outlet property="targetLabel1" destination="K2D-Or-vJ5" id="Pff-yQ-Ux1"/>
                         <outlet property="txtFieldEmail" destination="VbN-cu-4qg" id="HYj-AN-Cjb"/>
                         <outlet property="txtFieldPassword" destination="wme-sS-Eez" id="Jxf-do-DLk"/>
+                        <outlet property="welcomeMessage" destination="AI5-eV-w5k" id="Y63-ln-5fr"/>
                         <segue destination="g97-Cb-tgr" kind="push" identifier="loginToDailyDeatls" id="P8o-kh-AHR"/>
                     </connections>
                 </viewController>
