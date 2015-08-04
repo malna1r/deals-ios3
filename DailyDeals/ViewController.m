@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DailyDealsViewController.h"
+#import "ADBMobile.h"
 
 @interface ViewController ()
 
@@ -88,6 +89,20 @@
     pt.x = 0;
     pt.y = 0;
     [self.scrollView setContentOffset:pt animated:YES];
+   
+}
+
+-(void)welcomeMessageCampaign
+{
+    [ADBMobile targetClearCookies];
+        
+        ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message" defaultContent:@"Find Great Deals Everyday!" parameters:nil];
+        
+        [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content)
+             
+             { // do something with content
+                     self.welcomeMessage.text = content;
+                 }];
     
 }
 
